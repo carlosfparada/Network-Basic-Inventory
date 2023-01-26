@@ -4,15 +4,15 @@
 all: 
   hosts: 
     ios-rt1:
-      ansible_host: 172.16.1.151
+      ansible_host: 172.16.2.151
     ios-rt2:
-      ansible_host: 172.16.1.152
+      ansible_host: 172.16.2.152
     ios-sw1:
-      ansible_host: 172.16.1.153
+      ansible_host: 172.16.2.153
     eos-rt1:
-      ansible_host: 172.16.1.154
+      ansible_host: 172.16.2.154
     nxos-9k:
-      ansible_host: 172.16.1.162
+      ansible_host: 172.16.2.162
       ansible_password: Cisco123
     linuxserver: 
       ansible_host: 172.16.1.9
