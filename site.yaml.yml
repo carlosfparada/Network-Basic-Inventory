@@ -18,7 +18,10 @@ all:
       ansible_host: 172.16.1.9
       ansible_user: max
       ansible_ssh_pass: gruen100
-  children:
+    backup-server: 
+      ansible_host: 172.16.2.199
+      ansible_user: root
+      ansible_ssh_pass: centos
     router:
       hosts:
         ios-rt1:
